@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="mainContent">
+        <div class="translationUnit">
+            <select name="fromLang" id="fromLang">
+                <option value="french">French</option>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="italian">Italian</option>
+            </select>
+            <textarea name="from" 
+                      id="from" 
+                      class="text" 
+                      placeholder="Ecrivez votre texte ici">
+            </textarea>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="20" 
+             height="20" 
+             fill="white" 
+             class="bi bi-arrow-left-right" 
+             viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
+        </svg>
+        <div class="translationUnit">
+            <select name="toLang" id="toLang">
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="spanish">Spanish</option>
+                <option value="italian">Italian</option>
+            </select>
+            <div class="text to"></div>    
+        </div>
+    </div>
+    <div class="btnContainer">
+        <button class="translate">Translate</button>    
+    </div>  
+</body>
+</html>

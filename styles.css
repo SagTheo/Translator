@@ -1,0 +1,38 @@
+.mainContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 1rem;
+}
+
+.text {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.btnContainer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.translationUnit {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.bi {
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bi:hover {
+    background-color: rgb(61, 61, 61);
+}
